@@ -1,0 +1,34 @@
+.main-content1{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+h1{
+    border-bottom: 5px solid red;
+}
+section{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .main-content1{
+        padding-right: 12%;
+    }
+    .for-mobiles-header{
+        font-size: 14px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .for-mobiles{
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+}
