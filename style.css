@@ -17,7 +17,8 @@ h1{
 .image-beside-intro{
     margin-top: 10px;
     height: 280px;
-
+    width: 350px;
+    border-radius: 20%;
 }
 h2{
  border-bottom: 5px solid red;
